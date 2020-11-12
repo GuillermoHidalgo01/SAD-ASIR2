@@ -1,6 +1,6 @@
-####EXAMEN IAW SAD###
+#### EXAMEN IAW SAD ####
 
-##Script que nos crea automaticamente la base de datos y el fichero wp.cli.phar para el funcionamiento del propio gestor de contenido###
+###Script que nos crea automaticamente la base de datos y el fichero wp.cli.phar para el funcionamiento del propio gestor de contenido###
 
 $var = "examen_guillermo"
 
@@ -32,17 +32,17 @@ foreach($usuarios in $var)
     }
 
 
-##URL DE ACCESO##
+### URL DE ACCESO ###
 
 http://localhost/works/examen_guillermo/
 
-##Usuario:guillermo
-###Passwd: Andel_1928
+### Usuario:guillermo
+### Passwd: Andel_1928
 
 
-##Creamos los ficheros .php para poder subir los archivos, esto de hace en la carpeta de htdocs y creamos la carpeta de uploads. Creamos fichero upload.php y formulario.php
+### Creamos los ficheros .php para poder subir los archivos, esto de hace en la carpeta de htdocs y creamos la carpeta de uploads. Creamos fichero upload.php y formulario.php ###
 
-##Fichero formulario.php
+### Fichero formulario.php ###
 <!DOCTYPE html>
 <html>
 <body>
@@ -56,7 +56,7 @@ http://localhost/works/examen_guillermo/
 </body>
 </html>
 
-##Fichero upload.php
+### Fichero upload.php
 
 <?php
 $target_dir = "uploads/";
